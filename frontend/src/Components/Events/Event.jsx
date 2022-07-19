@@ -2,7 +2,7 @@ import React from 'react'
 
 function Event() {
   return (
-    <div className="events">
+    <div className='event'>
         
     </div>
   )

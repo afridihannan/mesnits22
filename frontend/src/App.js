@@ -1,13 +1,13 @@
 import About from "./Components/About/About";
 import Icrame from "./Components/Icrame/Icrame";
-import Variety from "./Components/Variety/Variety";
+import Team from "./Components/Ourteam/Team";
 
 function App() {
   return (
     <div className="App">
       <About/>
       <Icrame/>
-      <Variety/>
+      <Team/>
     </div>
   );
 }
