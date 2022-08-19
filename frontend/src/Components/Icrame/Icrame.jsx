@@ -5,7 +5,7 @@ import icrame1 from '../../Assets/icrame1.png'
 function Icrame() {
   return (
     <div className="icrame">
-      {/* <div className="icrame_lining"></div> */}
+      {/* <div className="icrame_lining"></div > */}
       <div className="icrame_nd">
         <div className="icrame_content">
             <div className="icrame_head">Icrame</div>
