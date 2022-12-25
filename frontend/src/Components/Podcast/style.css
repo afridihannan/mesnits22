@@ -5,17 +5,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* margin: 2rem; */
 }
 .pod_part{
-   height: 80%;
-   width: 90%;
+   height: 95%;
+   width: 95%;
    display: flex;
    /* border: 1px solid white; */
    justify-content: center;
     align-items: center;
+    margin: 2rem;
 }
 .pod_Context{
-   height: 80%;
+   height: 90%;
    width: 80%;
    /* border: 1px solid white; */
    background-color: #3E3A3A;
@@ -24,39 +26,51 @@
    display: flex;
    flex-direction: column;
    justify-content: center;
+   /* position: relative; */
    /* align-items: center; */
 }
 .p_head{
     border-bottom: 3px solid white;
     /* width: 90%; */
-    height: 15%;
+    height: 10%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    margin: 10px;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
     flex-direction: column;
+    /* position: absolute;
+    top: 2%;
+    left: 25%; */
+    /* align-self:baseline; */
 }
 .p_headline{
     color: white;
-    font-size: 25px;
+    font-size: 30px;
+    padding-bottom: 10px;
+    /* align-self: flex-end; */
 }
 .p_cont{
     color: white;
-    font-size: 18px;
+    font-size: 20px;
     margin: 15px;
+    height: 85%;
     text-align: justify;
 }
 .pod_images{
-    height: 80%;
+    height: 90%;
     width: 80%;
     /* border: 1px solid white; */
     border-radius: 22px;
     background-color: #3E3A3A;
     margin: 3px;
+    /* position: relative; */
 }
 .people_{
-    display: flex;
     display: grid;
+    /* position: absolute;
+    left: 20%;
+    top: 20%; */
     grid-template-columns: repeat(2,1fr);
     grid-template-rows: repeat(2,1fr);
 }
@@ -78,7 +92,30 @@
     color: white;
     align-items: center;
     justify-content: center;
+    margin: 0.5rem;
 }
 .people_1{
-    margin: 1rem;
+    margin: 2rem;
+}
+@media screen and (max-width:1000px) {
+    .podcast__{
+       height: auto;
+    }
+    .pod_part{
+        flex-direction: column;
+        height: auto;
+    }
+    .p_cont{
+        font-size: 1rem;
+    }
+    .p_headline{
+        font-size: 1.4rem;
+    }
+    .pod_Context,.pod_images{
+        width: 100%;
+    }
+    .pep_img img{
+        width: 6rem;
+        height: 6rem;
+    }
 }

@@ -1,7 +1,7 @@
 .team{
     width: 100vw;
     /* height: 100vh; */
-    background-color: #0F1213;
+    background:#282828;
 }
 .team_l{
     height: 25px;
@@ -51,7 +51,7 @@
 }
 .mem_img img{
     width: 85%;
-    height: 240px;
+    height: 100%;
     align-items: center;
     justify-content: center;
     object-fit: cover;
@@ -78,4 +78,23 @@
     font-size: 19px;
     line-height: 33px;
     color: #EDEDED;
+}
+@media screen and (max-width:1000px) {
+    .team_mem{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .mem_img{
+        height: 240px;
+    }
+    .mem_img img{
+        width: 100%;
+        height: 100%;
+        object-fit:fill;
+    }
+    .mem_desig{
+        font-size: 0.9rem;
+    }
+    .mem_name{
+        font-size: 1rem;
+    }
 }

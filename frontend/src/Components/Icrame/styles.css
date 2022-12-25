@@ -33,7 +33,7 @@
     padding: 3%;
     background: #3E3D41;
     opacity: 0.8;
-    border-radius: 75px;
+    border-radius: 35px;
 }
 .icrame_head{
     /* border: 1px solid white; */
@@ -48,14 +48,14 @@
 }
 .icrame_para{
     /* border: 1px solid white; */
-    font-family: 'Poppins';
+    /* font-family: 'Poppins'; */
     font-style: normal;
     font-weight: 400;
     font-size: 17px;
     line-height: 27px;
     
     color: #FFFDFD;
-    
+    background-image: url('../../Assets/icrame1.png');
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .icrame_para p{
@@ -76,4 +76,23 @@
     position: absolute;
     right: 00;
     width: 75%;
+}
+@media screen  and (max-width:1000px){
+    .icrame{
+        height: auto;
+    }
+    .icrame_content{
+        width: 90%;
+        margin: auto auto;
+    }
+    .icrame_nd{
+        display: block;
+        justify-content: center;
+    }
+    .icrame_bg_img{
+       display: none;
+    }
+    .icrame_para{
+        font-size: 0.9rem;
+    }
 }

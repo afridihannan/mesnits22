@@ -14,7 +14,14 @@ function About() {
             <div className="about_us_header">About us</div>
             <div className="about_us_para">
               <p>
-              The Department of Mechanical Engineering in NIT Silchar is one of the oldest and finest Departments in the entire region. The Mechanical Engineering Society (MES), NIT Silchar is the official branch society of the department that aims to fulfil the technical, social and cultural needs of the students. MES conducts various events, workshops, webinars, mock tests and other activities for the welfare of the students and strives to make this learning experience a healthy and enjoyable one.
+                The Department of Mechanical Engineering in NIT Silchar is one
+                of the oldest and finest Departments in the entire region. The
+                Mechanical Engineering Society (MES), NIT Silchar is the
+                official branch society of the department that aims to fulfil
+                the technical, social and cultural needs of the students. MES
+                conducts various events, workshops, webinars, mock tests and
+                other activities for the welfare of the students and strives to
+                make this learning experience a healthy and enjoyable one.
               </p>
             </div>
           </div>

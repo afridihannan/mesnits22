@@ -3,6 +3,7 @@ import Icrame from "./Components/Icrame/Icrame";
 import Team from "./Components/Ourteam/Team";
 import Navbar from "./Components/Nav/Navbar";
 import Podcast from "./Components/Podcast/Podcast";
+import Mechatrix from "./Components/Mechatrix/Mechatrix";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <About/>
       <Podcast/>
       <Icrame/>
+      <Mechatrix/>
       <Team/>
     </div>
   );
