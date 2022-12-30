@@ -34,7 +34,7 @@
 }
 .ind_mem{
     /* width:25%; */
-    height: 20%;
+    height: 70%;
     /* border: 1px solid white; */
     display: flex;
     flex-direction: column;
@@ -42,16 +42,19 @@
     justify-content: center;
     margin: 20px;
     padding: 00;
+    line-height: 10px;
 }
 .mem_img{
     width: 100%;
+    height: 70%;
+    /* border: 1px solid red; */
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    align-items:center;
+    justify-content: center;
 }
 .mem_img img{
     width: 85%;
-    height: 100%;
+    height: 90%;
     align-items: center;
     justify-content: center;
     object-fit: cover;
@@ -67,8 +70,8 @@
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
-    line-height: 38px;
-    
+    line-height: 28px;
+    text-align: center;
     color: #EDEDED;
 }
 .mem_desig{
@@ -85,6 +88,7 @@
     }
     .mem_img{
         height: 240px;
+        width: 100%;
     }
     .mem_img img{
         width: 100%;

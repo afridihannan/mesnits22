@@ -1,0 +1,26 @@
+.contact{
+    width: 100wh;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    background:#282828;
+}
+.con_heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: aliceblue;
+}
+.socials{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 40px;
+    color: white;
+}
+.facebook,.linkedin,.utube{
+    height: 40px;
+    color: aliceblue;
+}

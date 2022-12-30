@@ -1,0 +1,20 @@
+.cover_div{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#282828;
+    color: white;
+}
+@media screen  and (max-width:1000px){
+   .cover_div img{
+    width: 350px;
+    height: 350px;
+   }
+   .cover_div h2{
+     font-size: 23px;
+   }
+}
+

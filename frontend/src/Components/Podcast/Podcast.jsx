@@ -5,7 +5,7 @@ import { Peps } from "./People";
 
 function Podcast() {
   return (
-    <div className="podcast__">
+    <div className="podcast__" id="poddcast">
       <div className="pod_part">
         <div className="pod_Context">
           <div className="p_head">

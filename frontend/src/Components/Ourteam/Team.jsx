@@ -4,7 +4,7 @@ import './style.css'
 
 function Team() {
   return (
-    <div className='team' >
+    <div className='team' id='navigateteam' >
       <div className="team_l"></div>
         <div className="team_header">
             Our Team

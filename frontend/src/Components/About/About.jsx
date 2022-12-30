@@ -4,7 +4,7 @@ import img2 from "../../Assets/image2.png";
 
 function About() {
   return (
-    <div className="about_us">
+    <div className="about_us" id="about__us">
       <div className="about">
         <div className="about_us_img">
           <img src={img2} alt="img" />
